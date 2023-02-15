@@ -29,6 +29,7 @@ body {
 header {
     background: rgba(255, 144, 14, 0.1);
     padding: 20px 0px;
+    margin-bottom: 60px;
 }
 
 /*----- navbar part ------*/
@@ -95,4 +96,57 @@ nav {
     color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+/*==========================*/
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+/*==========================*/
+
+/*========= our features section  ==========*/
+.ourFeatures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 250px;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.featuresImg {
+    display: flex;
+    gap: 10px;
+}
+.featuresImg img {
+    max-width: 80%;
+}
+.ourFeaturesDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+}
+.ourFeaturesDetails h2 {
+    color: #131313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+}
+.gray {
+    color: #727272;
+}
+.orangeColor{
+    color: var(--main--color);
+}
+.ourFeaturesDetails p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
 }
