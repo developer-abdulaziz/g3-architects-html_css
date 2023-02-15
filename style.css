@@ -14,6 +14,10 @@ ul,
 ol {
     list-style-type: none;
 }
+
+html {
+    --main--color: #FF900E;
+}
 img {
     max-width: 100%;
 }
@@ -22,13 +26,21 @@ body {
 }
 
 /*================== header section  ===============*/
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 20px 0px;
+}
+
+/*----- navbar part ------*/
 .container {
     max-width: 80%;
     margin: 0 auto;
+}
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: whitesmoke;
+    margin-bottom: 60px;
 }
 .logo {
     font-style: normal;
@@ -48,4 +60,39 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+}
+/*--------- hero banner part --------*/
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+.hero_content h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+.hero_content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+.primary_btn {
+    background: var(--main--color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
