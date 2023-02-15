@@ -111,6 +111,7 @@ main {
     align-items: center;
     justify-content: space-between;
     gap: 250px;
+    margin-bottom: 100px;
 }
 .gallery {
     display: flex;
@@ -144,6 +145,42 @@ main {
     color: var(--main--color);
 }
 .ourFeaturesDetails p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+/*========= features service section  ==========*/
+.features_service {
+    display: flex;
+    gap: 20px;
+}
+.features_service > * {
+    flex-basis: 100%;
+}
+
+.service_title h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    position: relative;
+}
+.service_title h2::before {
+    position: absolute;
+    content: "";
+    /* top: 0;
+    left: 0; */
+    width: 5px;
+    height: 90px;
+    left: 0px;
+    top: 10px;
+   background: var(--main--color);
+}
+.service_title p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
