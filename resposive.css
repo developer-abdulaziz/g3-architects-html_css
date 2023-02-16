@@ -24,6 +24,15 @@
         flex-direction: column;
     }
 
+    .some_fact_part {
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+    .fact_title {
+        text-align: center;
+        margin: 0 auto;
+    }
 
     .f_service {
         flex-direction: column;
@@ -61,8 +70,15 @@
         flex-direction: column;
     }
 
+    .some_fact_part {
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+
     .fact_title {
         text-align: center;
+        margin: 0 auto;
     }
 
     .f_service {
