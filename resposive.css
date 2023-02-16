@@ -73,6 +73,8 @@
     .some_fact_part {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap: 150px;
     }
 
