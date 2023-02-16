@@ -24,9 +24,6 @@
         flex-direction: column;
     }
 
-    .fact_title {
-        text-align: center;
-    }
 
     .f_service {
         flex-direction: column;

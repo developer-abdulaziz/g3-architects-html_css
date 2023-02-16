@@ -302,11 +302,16 @@ main {
 /*========= our sponsore section  ==========*/
 .sponsores {
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .sponsore_title {
-    width: 542px;
+    /* width: 542px;
     height: 129px;
-    margin: 0 auto;
+    margin: 0 auto; */
     text-align: center;
     
 }
@@ -328,6 +333,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
     padding-top: 50px;
 }
 
