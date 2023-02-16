@@ -320,3 +320,17 @@ main {
     justify-content: space-between;
     padding-top: 50px;
 }
+
+/*========= footer  ==========*/
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 40px 0px;
+}
+footer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+}
