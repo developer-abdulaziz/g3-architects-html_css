@@ -114,5 +114,15 @@
     }
 }
 
+/*---- Extra large device responsive ----*/
+@media (min-width: 993px) and (max-width: 1200px){
+    .f_service {
+        gap: 20px;
+    }
+}
+
+/*---- Extra extra large device responsive ----*/
+/* @media (min-width: 1200px) and (max-width: 1400px){
+} */
 
 
