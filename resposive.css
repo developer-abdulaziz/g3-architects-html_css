@@ -1,0 +1,118 @@
+/*========= media query use  ==========*/
+/*---- Small device responsive ----*/
+@media (max-width: 576px){
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ourFeatures {
+        flex-direction: column;
+        gap: 80px;
+    }
+    .featuresImg {
+        flex-direction: column;
+    }
+    .ourFeaturesDetails {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .features_service {
+        flex-direction: column;
+    }
+
+    .fact_title {
+        text-align: center;
+    }
+
+    .f_service {
+        flex-direction: column;
+        gap: 14px;
+    }
+    .sponsore_img {
+        flex-direction: column;
+        gap: 40px;
+    }
+}   
+
+
+/*---- Medium device responsive ----*/
+@media (min-width: 577px) and (max-width: 768px){
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ourFeatures {
+        flex-direction: column;
+        gap: 80px;
+    }
+    .featuresImg {
+        flex-direction: column;
+    }
+    .ourFeaturesDetails {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .features_service {
+        flex-direction: column;
+    }
+
+    .fact_title {
+        text-align: center;
+    }
+
+    .f_service {
+        flex-direction: column;
+        gap: 14px;
+    }
+    .sponsore_img {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+/*---- Large device responsive ----*/
+@media (min-width: 769px) and (max-width: 992px){
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ourFeatures {
+        flex-direction: column;
+        gap: 80px;
+    }
+    .featuresImg {
+        gap: 30px;
+    }
+    .ourFeaturesDetails {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fact_title {
+        width: 400px;
+        height: 53px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    .f_service {
+        gap: 14px;
+    }
+    .sponsore_img {
+        gap: 18px;
+    }
+}
+
+
+
